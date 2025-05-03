@@ -147,6 +147,6 @@ AppleGen2SPMI QueueStatus Error=Power communication error between CPU and PMU vi
 BridgeOS Panic Detect=BridgeOS detected an emergency condition such as watchdog failure or DETECT_QUIET state. Usually caused by faulty sensors, shorted flex cable, or auxiliary security system error.
 USB MTP Transfer Error=MTP data transfer error via USB. Occurs when AppleMTP firmware fails during data transmission. Can cause freeze or reboot during restore or computer connection.
 Step panic sars=Device suffered impact causing disconnection between stacked mainboards\n(Contributor: Kiên Apple)
-DSC Fatal INTSTS=Caused by damaged display or faulty lower board; may trigger panic\n(Contributor: Kiên Apple)
-go = no error
+DSC Fatal INTSTS=Caused by damaged display or faulty lower board; may trigger panic\n(Contributor: Kiên Apple) 
+abcd = hello
 
