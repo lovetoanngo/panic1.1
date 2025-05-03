@@ -148,5 +148,5 @@ BridgeOS Panic Detect=BridgeOS detected an emergency condition such as watchdog 
 USB MTP Transfer Error=MTP data transfer error via USB. Occurs when AppleMTP firmware fails during data transmission. Can cause freeze or reboot during restore or computer connection.
 Step panic sars=Device suffered impact causing disconnection between stacked mainboards\n(Contributor: Kiên Apple)
 DSC Fatal INTSTS=Caused by damaged display or faulty lower board; may trigger panic\n(Contributor: Kiên Apple) 
-abcd = hello
+abc = hello
 
