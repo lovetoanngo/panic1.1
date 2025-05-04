@@ -172,4 +172,14 @@ i2c0-checkbusStatus = i2c0 bus issue with dock connector — usually caused by T
 AppleTriStar2: could not find system id = Tristar IC not responding — IC may be damaged or disconnected.
 baseband radio on sequence failed = Baseband modem startup failure — likely NAND, RAM, or CPU related.
 ApplesmartIO = SmartIO firmware memory access error — may be due to flash fault or IO path damage.
+CP_COM_NORM REQUEST = CPU or hard disk / camera circuit fault
+AOP NMI POWER = Front cable power or power button cable issue
+sks request timeout = CPU to logic code segment line error
+initproc exited = Main crystal failure
+Bad tailq elm = Main crystal failure
+Prev- next = Main crystal failure
+LLC = Baseband or audio circuit issue
+A freed zone element has been modified = CPU virtual soldering issue
+apcie(0:s3e) = Hard disk failure
+apcie (wlan) = Wi-Fi module issue
 
