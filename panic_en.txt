@@ -63,6 +63,7 @@ smc array 0xC0000 = Proximity and charging flex error
 smc array 0xC00000 = Security authentication error: Face ID, Touch ID, SEP
 smc array 0x700000 = Charging and wireless charging flex error
 smc array 0x800000 = Software-related error
+smc array 0x800 =  charging 
 smc array 0x400000 = Wireless charging (back coil) error
 smc array 0x500000 = Communication error between battery and system
 smc array 0x600000 = Wireless charging and proximity cable error
