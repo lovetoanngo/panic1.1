@@ -1,4 +1,4 @@
-smc array 0x000 = SMC sensor error: no response.
+smc array 0x000 = SMC sensor error: no response..
 modem reset = Modem or signal firmware error.
 smc array 0x80000 = Proximity Flex sensor cable error\nContributor: (Phạm Thành)
 smc array 0x140000 = Charging & power button flex or barometer sensor error\nSMC sensor system error:\n- SMC PANIC - ASSERT: Firmware-reported sensor control error\n- SMC BSC failure: Baseboard System Controller error\nReal-world case: moisture oxidized the power button or vibrator cable socket → causes signal short in sensor lines\n- If encountered: 0x140000 → check charging flex\nContributor: (Phạm Thành)
