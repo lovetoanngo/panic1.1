@@ -166,7 +166,7 @@ anc-postnand.c1260 = Lỗi link CPU ↔ NAND, có thể do chân hàn NAND hoặ
 AOP DATA ABORT = Lỗi bộ xử lý phụ AOP — thường do lỗi NAND, cảm biến, hoặc CPU.
 i2c + code = Lỗi giao tiếp i2c — xác định cụm linh kiện dựa vào code cụ thể.
 fed err C parity counter overflow = Lỗi truyền dữ liệu từ bo phía trên (upper board) — thường do đứt chân main.
-AOP PANIC -prox(6) = Lỗi cụm cảm biến khoảng cách (proximity), gây AOP panic.
+AOP PANIC -prox 6 = Lỗi cụm cảm biến khoảng cách (proximity), gây AOP panic.
 No pulse on = Không phát hiện rung — kiểm tra motor rung hoặc socket rung.
 i2c0-checkbusStatus = Lỗi giao tiếp i2c0 với đuôi sạc — thường do lỗi IC Tristar hoặc socket đuôi sạc.
 AppleTriStar2: could not find system id = IC Tristar không phản hồi — thường do hỏng hoặc đứt chân socket dock.
@@ -180,6 +180,6 @@ Bad tailq elm = Lỗi thạch anh chính (main crystal)
 Prev- next = Lỗi thạch anh chính (main crystal)
 LLC = Lỗi mạch baseband hoặc audio
 A freed zone element has been modified = Lỗi hàn ảo CPU (CPU virtual soldering)
-apcie(0:s3e) = Lỗi ổ cứng (hard disk)
-apcie (wlan) = Lỗi module WiFi
+apcie 0:s3e = Lỗi ổ cứng (hard disk)
+apcie wlan = Lỗi module WiFi
 
