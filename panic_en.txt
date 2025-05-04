@@ -147,7 +147,7 @@ AppleMTP Panic=Error related to the Media Transfer Protocol (AppleMTPFirmware). 
 AppleGen2SPMI QueueStatus Error=Power communication error between CPU and PMU via SPMI interface. Abnormal queueStatus prevents correct communication. May result from broken trace or faulty power management hardware.
 BridgeOS Panic Detect=BridgeOS detected an emergency condition such as watchdog failure or DETECT_QUIET state. Usually caused by faulty sensors, shorted flex cable, or auxiliary security system error.
 USB MTP Transfer Error=MTP data transfer error via USB. Occurs when AppleMTP firmware fails during data transmission. Can cause freeze or reboot during restore or computer connection.
-SEP Panic :sars\/sars: = Physical shock between mainboard layers causing disconnection or damaged socket lines. Common after device drops or hard impact.\n(Contributor: Kiên Apple)
+SEP Panic sars = Physical shock between mainboard layers causing disconnection or damaged socket lines. Common after device drops or hard impact.\n(Contributor: Kiên Apple)
 DSC Fatal INTSTS=Caused by damaged display or faulty lower board; may trigger panic\n(Contributor: Kiên Apple) 
 I2C0 Interrupt Error=This is an I2C communication error (between CPU and components such as sensors, power ICs, etc.).\n• Specifically: error from i2c0 when checking interrupts — the I2C-connected device did not respond or sent corrupted data.\n• Could be caused by a faulty sensor (e.g. ambient light or proximity sensor).\n• Could also be due to defective I2C-connected ICs such as Compass, Proximity, or Tristar/Hydra (charging IC).\n• Damaged I2C line or socket, often due to drops or physical impact.
 
