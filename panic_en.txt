@@ -100,7 +100,6 @@ aop Systick watchdog2 not pet = Secondary watchdog not responding (not pet)
 aop Gyro = Gyroscope sensor error
 aop No pulse on = Big Audio, front speaker, or vibration error
 aop AMCC ERROR = AMCC error – audio controller, front speaker failure
-AOP PANIC = AOP PANIC on iPhone 7 Plus, proximity sensor, rear mic, power flex, or fingerprint sensor error
 AOP DATA ABORT = AOP data abort error, NAND or SoC failure, or CPU solder pad error
 AOP data link CMD timeout bus 0 = AOP CMD data link timeout on bus 0
 aop K2-bosch control = Bosch K2 control error, vibration motor failure\nReal-world case: faulty power flex can also cause this error\nContributor: (Kiên Apple)
