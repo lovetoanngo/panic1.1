@@ -182,4 +182,5 @@ LLC = Lỗi mạch baseband hoặc audio
 A freed zone element has been modified = Lỗi hàn ảo CPU (CPU virtual soldering)
 apcie 0:s3e = Lỗi ổ cứng (hard disk)
 apcie wlan = Lỗi module WiFi
+sleep wake hang = Lỗi hệ thống khi thoát chế độ ngủ (Sleep/Wake), có thể do lỗi CPU phụ (PMIC), NAND, hoặc xung đột nguồn điện.
 
