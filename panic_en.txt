@@ -182,4 +182,5 @@ LLC = Baseband or audio circuit issue
 A freed zone element has been modified = CPU virtual soldering issue
 apcie 0:s3e = Hard disk failure
 apcie wlan = Wi-Fi module issue
+sleep wake hang = Sleep/Wake hang detected – device failed to resume from sleep, likely due to PMIC, NAND, or power management failure.
 
