@@ -63,6 +63,7 @@ smc array 0xC0000 = Lỗi cụm tiệm cận và sạc
 smc array 0xC00000 = Lỗi xác thực bảo mật: Face ID, Touch ID, SEP
 smc array 0x700000 = Lỗi cụm sạc và cụm sạc không dây
 smc array 0x800000 = Lỗi liên quan phần mềm
+smc array 0x800 = Lỗi do cụm sạc \n Người đóng góp : Sa Hoàng
 smc array 0x400000 = Lỗi cụm sạc không dây (mặt lưng)
 smc array 0x500000 = Lỗi truyền thông giữa pin và hệ thống
 smc array 0x600000 = Lỗi cụm sạc không dây và dây cảm biến tiệm cận
