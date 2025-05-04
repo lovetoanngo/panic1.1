@@ -172,4 +172,14 @@ i2c0-checkbusStatus = Lỗi giao tiếp i2c0 với đuôi sạc — thường do
 AppleTriStar2: could not find system id = IC Tristar không phản hồi — thường do hỏng hoặc đứt chân socket dock.
 baseband radio on sequence failed = Lỗi khởi động modem baseband — có thể do lỗi NAND, RAM hoặc CPU.
 ApplesmartIO = Lỗi truy cập bộ nhớ firmware SmartIO — có thể do lỗi flash hoặc socket liên quan đến IO.
+CP_COM_NORM REQUEST = Lỗi CPU hoặc mạch ổ cứng / camera
+AOP NMI POWER = Lỗi dây nguồn cụm trước hoặc nút nguồn
+sks request timeout = Lỗi đường lệnh từ CPU đến mã logic
+initproc exited = Lỗi thạch anh chính (main crystal)
+Bad tailq elm = Lỗi thạch anh chính (main crystal)
+Prev- next = Lỗi thạch anh chính (main crystal)
+LLC = Lỗi mạch baseband hoặc audio
+A freed zone element has been modified = Lỗi hàn ảo CPU (CPU virtual soldering)
+apcie(0:s3e) = Lỗi ổ cứng (hard disk)
+apcie (wlan) = Lỗi module WiFi
 
