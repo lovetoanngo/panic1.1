@@ -147,6 +147,6 @@ AppleMTP Panic=Lỗi liên quan đến firmware Media Transfer Protocol (AppleMT
 AppleGen2SPMI QueueStatus Error=Lỗi điều khiển năng lượng giữa CPU và IC nguồn qua giao tiếp SPMI. Cụ thể, trạng thái queueStatus bất thường khiến không thể giao tiếp đúng. Có thể do đứt mạch hoặc lỗi phần cứng quản lý nguồn.
 BridgeOS Panic Detect=Lỗi BridgeOS phát hiện tình trạng khẩn cấp như watchdog hoặc trạng thái im lặng (DETECT_QUIET). Thường xảy ra do cảm biến hư, cáp bị chạm hoặc lỗi hệ thống bảo mật phụ.
 USB MTP Transfer Error=Lỗi truyền dữ liệu MTP qua USB. Thường xảy ra khi firmware AppleMTP gặp sự cố trong quá trình gửi/nhận dữ liệu. Có thể gây treo hoặc khởi động lại máy trong lúc khôi phục hoặc kết nối với máy tính.
- SEP Panic sars =  Máy va chạm gây đứt chân giữa hai main \n Người đóng góp (kiên apple)
+ SEP sars =  Máy va chạm gây đứt chân giữa hai main \n Người đóng góp (kiên apple)
 DSC Fatal INTSTS = Màn hỏng ,Main dưới hỏng cũng gây nên panic này (kiên Apple)
 I2C0 Interrupt Error=Lỗi thuộc về giao tiếp I2C (giao tiếp giữa CPU và các linh kiện như cảm biến, IC nguồn, v.v.)\n• Cụ thể: lỗi từ i2c0 xảy ra khi checkInterrupts error interrupt — tức là thiết bị gắn qua I2C không phản hồi hoặc truyền dữ liệu lỗi.\n• Lỗi phần cứng cảm biến (như cảm biến ánh sáng, tiệm cận).\n• IC giao tiếp qua I2C như Compass, Proximity, hoặc Tristar/Hydra (IC sạc) bị lỗi.\n• Lỗi socket hoặc đường I2C đứt, chạm, nhất là sau rơi/rớt máy.
