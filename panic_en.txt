@@ -185,3 +185,4 @@ apcie wlan = Wi-Fi module issue
 sleep wake hang = Sleep/Wake hang detected – device failed to resume from sleep, likely due to PMIC, NAND, or power management failure.
 AppleGen2SPMIController  = Communication failure between AOP and the SPMI Controller (AppleGen2SPMIController).\n- May be caused by hardware failure in the AOP IC or disrupted signal paths between AOP and SPMI.\n- Often related to damaged logic board or faulty auxiliary power ICs.\n- Frequently observed after impact or board-level power repairs.\n- Real-world experience: Reball or reflow between mainboard layers, or check for broken SPMI signal lines under microscope.
 userspace watchdog wifid = Wi-Fi process not responding — possibly due to faulty Wi-Fi IC. Contributor: Thành Nam Alo
+sensor array 0x1000 = Sensor error on the display assembly (ambient light or proximity sensor). Possible loose connector, broken flex, or damaged mainboard. (Contributor: Sa Hoàng)
