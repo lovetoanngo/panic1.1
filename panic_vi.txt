@@ -185,3 +185,4 @@ apcie wlan = Lỗi module WiFi
 sleep wake hang = Lỗi hệ thống khi thoát chế độ ngủ (Sleep/Wake), có thể do lỗi CPU phụ (PMIC), NAND, hoặc xung đột nguồn điện..
 AppleGen2SPMIController  = Lỗi giao tiếp giữa AOP và SPMI Controller (AppleGen2SPMIController).\n- Có thể do lỗi phần cứng IC AOP hoặc đường tín hiệu giữa AOP và SPMI bị gián đoạn.\n- Thường liên quan tới hư hỏng bo mạch chủ hoặc hỏng IC nguồn phụ trợ.\n- Gặp phổ biến sau va đập hoặc sửa chữa lỗi nguồn.\n kinh nghiệm thực tế : làm lại chân giữa hai main  , hoặc đo đứt chân các đường SPMI  . 
 userspace watchdog wifid = Lỗi tiến trình Wi-Fi không phản hồi — có thể do hỏng IC Wi-Fi, lỗi nguồn . /n kinh nghiệm thực tế thay wifi ok Người đóng góp: Thành Nam Alo
+sensor array 0x1000 = Lỗi cảm biến nằm trên cụm màn hình (cảm biến ánh sáng hoặc tiệm cận)./n (Người đóng góp: Sa Hoàng)
