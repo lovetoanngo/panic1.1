@@ -1,2 +1,2 @@
-2.6
-https://www.dropbox.com/scl/fi/q03vk3ju9fm3u0oyhorzx/panic2.6.zip?rlkey=1svgnd7oaotjaiau2vxqzbc2y&dl=1
+2.7
+https://www.dropbox.com/scl/fi/pvcg1iylq8cjft3ji0hbe/panic2.7.zip?rlkey=bo6nsd683779enp3erotw3om0&dl=1
