@@ -197,3 +197,4 @@ DCP PANIC = Lỗi không nhận được phản hồi từ bộ xử lý hiển 
  SMC BCC 0x400000 = kiểm tra sạc ,Lỗi sạc không dây 
 AOP Panic SCMto:0 = lỗi cáp cam trước hoặc cảm biến
 @AppleCS42L77Audio.cpp:4104 = Lỗi chip audio hoặc linh kiện liên quan tới audio
+SMC PANIC ASSERRTION 0x140000 =  kiểm tra cảm biến tiệm cận , đo  tổng trở cpu https://raw.githubusercontent.com/lovetoanngo/panic1.1/main/photo/0x140000.jpg
