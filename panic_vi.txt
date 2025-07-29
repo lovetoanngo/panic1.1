@@ -196,5 +196,5 @@ aop panic pulse main@0x1193110 = Lỗi cảm biến BMP284 (áp suất khí quy�
 DCP PANIC = Lỗi không nhận được phản hồi từ bộ xử lý hiển thị (DCP) trong thời gian cho phép.\n- Lỗi thường do socket màn hình lỏng, cáp màn hình hư hoặc DRAM lỗi.\n- Có thể xảy ra sau khi rơi máy, đứt đường tín hiệu hoặc main cong.\n- Kinh nghiệm thực tế: đo đường màn hình, làm lại socket, thay thử cáp màn hoặc kiểm tra màn hình  \n người đóng góp Sa Hoàng
  SMC BCC 0x400000 = kiểm tra sạc ,Lỗi sạc không dây 
 AOP Panic SCMto:0 = lỗi cáp cam trước hoặc cảm biến
-AppleCS42L77Audio.cpp:4104 = Lỗi chip audio hoặc linh kiện liên quan tới audio
+@AppleCS42L77Audio.cpp:4104\ndebug = Lỗi chip audio hoặc linh kiện liên quan tới audio
 SMC PANIC ASSERRTION 0x140000 =  kiểm tra cảm biến tiệm cận , đo  tổng trở cpu (ảnh sưu tầm internet )  https://raw.githubusercontent.com/lovetoanngo/panic1.1/main/photo/0x140000.jpg
