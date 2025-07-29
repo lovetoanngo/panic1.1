@@ -198,3 +198,4 @@ DCP PANIC = Lỗi không nhận được phản hồi từ bộ xử lý hiển 
 AOP Panic SCMto:0 = lỗi cáp cam trước hoặc cảm biến
 @AppleCS42L77Audio.cpp:4104\ndebug = Lỗi chip audio hoặc linh kiện liên quan tới audio
 SMC PANIC ASSERRTION 0x140000 =  kiểm tra cảm biến tiệm cận , đo  tổng trở cpu (ảnh sưu tầm internet )  https://raw.githubusercontent.com/lovetoanngo/panic1.1/main/photo/0x140000.jpg
+	AOP PANIC SCMto:0 prox(6) = kiểm tra cảm biến tiệm cận
