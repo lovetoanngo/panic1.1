@@ -70,7 +70,7 @@ smc array 0x500000 = Lỗi truyền thông giữa pin và hệ thống
 smc array 0x600000 = Lỗi cụm sạc không dây và dây cảm biến tiệm cận
 smc array 0x280000 = Lỗi cụm sạc và sạc không dây
 smc array 0x100000 = Lỗi dây nút nguồn / cụm sạc
-smc array 0x200000 = Lỗi dây cảm biến tiệm cận , hoặc kiểm tra cáp sạc \n Kinh nghiệm trên Iphone 15 được chia sẻ (FB Kiếm Nam Vương).Các cuộn dây lọc bị hở chân, có thể câu lại cho cảm biến áp suất   https://raw.githubusercontent.com/lovetoanngo/panic1.1/main/photo/0X200000.jpg
+smc array 0x200000 = Lỗi dây cảm biến tiệm cận , hoặc kiểm tra cáp sạc \n Kinh nghiệm trên Iphone 15 được chia sẻ (FB Kiếm Nam Vương).\nCác cuộn dây lọc bị hở chân, có thể câu lại cho cảm biến áp suất   https://raw.githubusercontent.com/lovetoanngo/panic1.1/main/photo/0X200000.jpg
 
 smc array 0x300000 = Lỗi dây cảm biến tiệm cận hoặc hệ thống camera,  hoặc kiểm tra cáp sạc
 watchdog timeout TT1P = Lỗi liên quan đến màn hình (Screen)\nNgười đóng góp (trần Toản)
