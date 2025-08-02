@@ -1,6 +1,6 @@
 smc array 0x000 = Lỗi cảm biến SMC không phản hồi.
 modem reset = Lỗi modem hoặc firmware sóng.
-smc array 0x80000 = Lỗi cụm dây cảm biến tiệm cận (Proximity Flex)\n Người đóng góp : (Phạm Thành)./n Kinh nghiệm thực tế ngoài khả năng do cảm biến tiệm cận còn do lỗi ic cảm biến gyro gây ra (ảnh và lỗi đã làm bởi FB : Kiếm Nam Vương) https://raw.githubusercontent.com/lovetoanngo/panic1.1/main/photo/0x80000.jpg
+smc array 0x80000 = Lỗi cụm dây cảm biến tiệm cận (Proximity Flex)\n Người đóng góp : (Phạm Thành).\n Kinh nghiệm thực tế ngoài khả năng do cảm biến tiệm cận còn do lỗi ic cảm biến gyro gây ra (ảnh và lỗi đã làm bởi FB : Kiếm Nam Vương) https://raw.githubusercontent.com/lovetoanngo/panic1.1/main/photo/0x80000.jpg
 
 smc array 0x140000 = Lỗi cụm sạc & dây nút nguồn hoặc cảm biến áp suất (Barometer)\nLỗi hệ thống cảm biến SMC:\n- SMC PANIC - ASSERT: Báo lỗi từ firmware điều khiển cảm biến\n- SMC BSC failure: Lỗi BSC (Baseboard System Controller) \nKinh nghiệm thực tế: nước làm oxy hóa socket cáp nút nguồn, socket rung → gây chạm đường tín hiệu cảm biến\n- Nếu gặp: 0x140000 → kiểm tra cụm sạc \n Người đóng góp : (Phạm Thành)
 smc array 0x180000 = Lỗi đồng thời dây tiệm cận & nút nguồn
