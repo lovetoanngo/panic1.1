@@ -198,10 +198,6 @@ SMC BCC 0x400000 = kiểm tra sạc ,Lỗi sạc không dây
 AOP Panic SCMto:0 = lỗi cáp cam trước hoặc cảm biến
 @AppleCS42L77Audio.cpp:4104\ndebugger = Lỗi chip audio hoặc linh kiện liên quan tới audio
 SMC PANIC ASSERRTION 0x140000 =  kiểm tra cảm biến tiệm cận , đo  tổng trở cpu (ảnh sưu tầm internet )  https://raw.githubusercontent.com/lovetoanngo/panic1.1/main/photo/0x140000.jpg
-<<<<<<< HEAD
-	AOP PANIC SCMto:0 prox(6) = kiểm tra cảm biến tiệm cận
-@AppleS5L8940XI2C.cpp:451\nDebugger = Kiểm tra cáp sạc
-=======
 AOP PANIC SCMto:0 prox(6) = kiểm tra cảm biến tiệm cận
-@AppleS5L8940X12C.cpp:503\nDebugger = Lỗi liên quan tới i2c , i2c0 có thể liên quan tới cáp sạc
->>>>>>> c3c2c943e0f0acb588cf82bc77be72b2a533559b
+@AppleS5L8940XI2C.cpp:451\nDebugger = Kiểm tra cáp sạc
+
