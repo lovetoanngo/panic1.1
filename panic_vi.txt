@@ -1,7 +1,6 @@
 smc array 0x000 = Lỗi cảm biến SMC không phản hồi.
 modem reset = Lỗi modem hoặc firmware sóng.
-smc array 0x80000 = Lỗi cụm dây cảm biến tiệm cận (Proximity Flex)\n Người đóng góp : (Phạm Thành).\nKinh nghiệm thực tế ngoài khả năng do cảm biến tiệm cận còn do lỗi ic cảm biến gyro gây ra trên Iphone 15 \n(ảnh và lỗi đã làm bởi FB : Kiếm Nam Vương) https://raw.githubusercontent.com/lovetoanngo/panic1.1/main/photo/0x80000.jpg
-
+smc array 0x80000 = Lỗi cụm dây cảm biến tiệm cận (Proximity Flex)\n Người đóng góp : (Phạm Thành).
 smc array 0x140000 = Lỗi cụm sạc & dây nút nguồn hoặc cảm biến áp suất (Barometer)\nLỗi hệ thống cảm biến SMC:\n- SMC PANIC - ASSERT: Báo lỗi từ firmware điều khiển cảm biến\n- SMC BSC failure: Lỗi BSC (Baseboard System Controller) \nKinh nghiệm thực tế: nước làm oxy hóa socket cáp nút nguồn, socket rung → gây chạm đường tín hiệu cảm biến\n- Nếu gặp: 0x140000 → kiểm tra cụm sạc \n Người đóng góp : (Phạm Thành)
 smc array 0x180000 = Lỗi đồng thời dây tiệm cận & nút nguồn
 smc array 0x20000 = Lỗi board trung gian (Sandwich) hoặc con quay hồi chuyển (Gyro)
@@ -68,10 +67,9 @@ smc array 0x800 = Lỗi do cụm sạc \n Người đóng góp : Sa Hoàng
 smc array 0x400000 = Lỗi cụm sạc không dây (mặt lưng)
 smc array 0x500000 = Lỗi truyền thông giữa pin và hệ thống
 smc array 0x600000 = Lỗi cụm sạc không dây và dây cảm biến tiệm cận
-smc array 0x280000 = Lỗi cụm sạc và sạc không dây
+smc array 0x280000 = Lỗi cụm sạc,cảm biến áp suất, sạc không dây (Sa Hoàng)
 smc array 0x100000 = Lỗi dây nút nguồn / cụm sạc
-smc array 0x200000 = Lỗi dây cảm biến tiệm cận , hoặc kiểm tra cáp sạc \n Kinh nghiệm trên Iphone 15 được chia sẻ (FB Kiếm Nam Vương).\nCác cuộn dây lọc bị hở chân, có thể câu lại cho cảm biến áp suất   https://raw.githubusercontent.com/lovetoanngo/panic1.1/main/photo/0X200000.jpg
-
+smc array 0x200000 = Lỗi dây cảm biến tiệm cận , hoặc kiểm tra cáp sạc 
 smc array 0x300000 = Lỗi dây cảm biến tiệm cận hoặc hệ thống camera,  hoặc kiểm tra cáp sạc
 watchdog timeout TT1P = Lỗi liên quan đến màn hình (Screen)\nNgười đóng góp (trần Toản)
 watchdog timeout TT2P = Lỗi liên quan đến màn hình (Screen)\nNgười đóng góp (trần Toản)
@@ -195,10 +193,15 @@ DCP NMI watchdog timeout =  Lỗi không nhận được phản hồi từ bộ 
 AOP PANIC moly bad data on i2c = Lỗi giao tiếp I2C từ bộ xử lý phụ AOP\n- Có thể do dữ liệu nhận từ cảm biến không hợp lệ hoặc cảm biến không phản hồi.\n- Thường liên quan đến cáp cảm biến trên màn hình, socket lỏng, hoặc đứt đường AOP.\n- Kinh nghiệm thực tế: thay cáp cảm biến hoặc đo lại các đường AOP I2C , cáp loa
 power_down_M3 auto_mode_change = Lỗi cáp loa trong — có thể do hở socket, đứt mạch hoặc flex loa trong lỗi gây mất kết nối với module nguồn M3. Kiểm tra lại socket màn hình, thay thử cáp loa trong để loại trừ.
 aop panic pulse main@0x1193110 = Lỗi cảm biến BMP284 (áp suất khí quyển) hoặc lỗi giao tiếp với AOP. Thường do flex cảm biến bị hỏng, socket hở.\nThực tế đã gặp lỗi gây ra bởi cáp cảm biến trên màn hình và cục rung.\nNgười đóng góp: Sa Hoàng
-DCP PANIC = Lỗi không nhận được phản hồi từ bộ xử lý hiển thị (DCP) trong thời gian cho phép.\n- Lỗi thường do socket màn hình lỏng, cáp màn hình hư hoặc ic liên quan .\n- Có thể xảy ra sau khi rơi máy, đứt đường tín hiệu hoặc main cong.\n- Kinh nghiệm thực tế: đo đường màn hình, làm lại socket, thay thử cáp màn hoặc kiểm tra màn hình  \n người đóng góp Sa Hoàng
- SMC BCC 0x400000 = kiểm tra sạc ,Lỗi sạc không dây 
+DCP PANIC = Lỗi không nhận được phản hồi từ bộ xử lý hiển thị (DCP) trong thời gian cho phép.\n- Lỗi thường do socket màn hình lỏng, cáp màn hình hư hoặc DRAM lỗi.\n- Có thể xảy ra sau khi rơi máy, đứt đường tín hiệu hoặc main cong.\n- Kinh nghiệm thực tế: đo đường màn hình, làm lại socket, thay thử cáp màn hoặc kiểm tra màn hình  \n người đóng góp Sa Hoàng
+SMC BCC 0x400000 = kiểm tra sạc ,Lỗi sạc không dây 
 AOP Panic SCMto:0 = lỗi cáp cam trước hoặc cảm biến
-@AppleCS42L77Audio.cpp:4104\ndebug = Lỗi chip audio hoặc linh kiện liên quan tới audio
+@AppleCS42L77Audio.cpp:4104\ndebugger = Lỗi chip audio hoặc linh kiện liên quan tới audio
 SMC PANIC ASSERRTION 0x140000 =  kiểm tra cảm biến tiệm cận , đo  tổng trở cpu (ảnh sưu tầm internet )  https://raw.githubusercontent.com/lovetoanngo/panic1.1/main/photo/0x140000.jpg
+<<<<<<< HEAD
 	AOP PANIC SCMto:0 prox(6) = kiểm tra cảm biến tiệm cận
 @AppleS5L8940XI2C.cpp:451\nDebugger = Kiểm tra cáp sạc
+=======
+AOP PANIC SCMto:0 prox(6) = kiểm tra cảm biến tiệm cận
+@AppleS5L8940X12C.cpp:503\nDebugger = Lỗi liên quan tới i2c , i2c0 có thể liên quan tới cáp sạc
+>>>>>>> c3c2c943e0f0acb588cf82bc77be72b2a533559b
