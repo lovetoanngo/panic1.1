@@ -1,6 +1,6 @@
 smc array 0x000 = Lỗi cảm biến SMC không phản hồi.
 modem reset = Lỗi modem hoặc firmware sóng.
-smc array 0x80000 = Lỗi cụm dây cảm biến tiệm cận (Proximity Flex)\n Người đóng góp : (Phạm Thành).
+smc array 0x80000 = Lỗi cụm dây cảm biến tiệm cận (Proximity Flex)\n Người đóng góp : (Phạm Thành).\n Ngoài ra còn có thể do cảm biến Gyro gây ra (Ảnh FB:Kiếm Nam Vương)https://raw.githubusercontent.com/lovetoanngo/panic1.1/main/photo/0x80000.jpg
 smc array 0x140000 = Lỗi cụm sạc & dây nút nguồn hoặc cảm biến áp suất (Barometer)\nLỗi hệ thống cảm biến SMC:\n- SMC PANIC - ASSERT: Báo lỗi từ firmware điều khiển cảm biến\n- SMC BSC failure: Lỗi BSC (Baseboard System Controller) \nKinh nghiệm thực tế: nước làm oxy hóa socket cáp nút nguồn, socket rung → gây chạm đường tín hiệu cảm biến\n- Nếu gặp: 0x140000 → kiểm tra cụm sạc \n Người đóng góp : (Phạm Thành)
 smc array 0x180000 = Lỗi đồng thời dây tiệm cận & nút nguồn
 smc array 0x20000 = Lỗi board trung gian (Sandwich) hoặc con quay hồi chuyển (Gyro)
@@ -69,7 +69,7 @@ smc array 0x500000 = Lỗi truyền thông giữa pin và hệ thống
 smc array 0x600000 = Lỗi cụm sạc không dây và dây cảm biến tiệm cận
 smc array 0x280000 = Lỗi cụm sạc,cảm biến áp suất, sạc không dây (Sa Hoàng)
 smc array 0x100000 = Lỗi dây nút nguồn / cụm sạc
-smc array 0x200000 = Lỗi dây cảm biến tiệm cận , hoặc kiểm tra cáp sạc 
+smc array 0x200000 = Lỗi dây cảm biến tiệm cận , hoặc kiểm tra cáp sạc \n Thực tế rất nhiều trường hợp hở các cuộn dây trên cáp sạc \n Ảnh (FB: Kiếm Nam Vương) https://raw.githubusercontent.com/lovetoanngo/panic1.1/main/photo/0X200000.jpg
 smc array 0x300000 = Lỗi dây cảm biến tiệm cận hoặc hệ thống camera,  hoặc kiểm tra cáp sạc
 watchdog timeout TT1P = Lỗi liên quan đến màn hình (Screen)\nNgười đóng góp (trần Toản)
 watchdog timeout TT2P = Lỗi liên quan đến màn hình (Screen)\nNgười đóng góp (trần Toản)
