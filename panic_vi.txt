@@ -482,9 +482,5 @@ baseband fatal error = Kiểm tra modem baseband, anten và firmware.
 bb panic assert = Kiểm tra baseband, nguồn và clock.
 no service panic = Kiểm tra anten, SIM và firmware baseband.
 rrc connection fail = Kiểm tra kết nối RRC, sóng và modem.
-nas attach reject = Kiểm tra cấu hình mạng di động và modem.
-<<<<<<< HEAD
 SMC PANIC 3145728 =  Kiểm tra La bàn  , Cảm biến áp xuất (fb : Kunz Henry)
-=======
-SMC PANIC 3145728, =  Kiểm tra La bàn  , Cảm biến áp xuất (fb : Kunz Henry)
->>>>>>> 08e7040bd4f49ec0d38aa019cda6eb8020a5ffbd
+
