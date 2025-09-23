@@ -484,3 +484,4 @@ no service panic = Kiểm tra anten, SIM và firmware baseband.
 rrc connection fail = Kiểm tra kết nối RRC, sóng và modem.
 SMC PANIC 3145728 =  Kiểm tra La bàn  , Cảm biến áp xuất (fb : Kunz Henry) https://raw.githubusercontent.com/lovetoanngo/panic1.1/f9daf5664115a5126d939a498ea45fe479f9afa6/photo/SMC%20PANIC%203145728.jpg
 @AppleCS42L77Audio.cpp:4104\nDebugger =  Lỗi chip audio 
+AOP PANIC  pearl@0x1153308 =  kiểm tra cảm biến , cáp cảm biến
